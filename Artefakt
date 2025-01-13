@@ -1,0 +1,109 @@
+# Dokumentacja Artefaktów Projektu
+
+Celem niniejszej dokumentacji jest przedstawienie spójnej wizji produktów projektu oraz przygotowanie Project Initiation Document (PID). Każdy artefakt został zaprojektowany zgodnie z wymaganiami i użytymi narzędziami w projekcie.
+
+---
+
+## Artefakty Projektu
+
+### 1. Wiki
+
+#### Zawartość Wiki:
+- **Struktura treści:**
+  - Tytuły i podtytuły do jasnego rozdzielenia sekcji.
+  - Sformatowany tekst (np. pogrubienie, kursywa) dla lepszej czytelności.
+  - Listy numerowane i punktowane dla uporządkowania treści.
+- **Linki:**
+  - Zewnętrzne: do źródeł i dokumentacji technicznej.
+  - Wewnętrzne: do innych stron w obrębie Wiki, takich jak harmonogram czy diagramy.
+- **Format:** Treść przygotowana w formacie Markdown, co pozwala na łatwy eksport oraz edycję.
+
+---
+
+### 2. Repozytorium GitHub i Kod Źródłowy
+
+Repozytorium projektu, założone na GitHub, centralizuje kod źródłowy oraz dokumentację. Stanowi ono podstawę funkcjonalności systemu.
+
+#### Kluczowe elementy:
+- **Struktura katalogów:**
+  - **/src:** Główny katalog z kodem źródłowym.
+  - **/lib:** Zewnętrzne biblioteki używane w projekcie.
+  - **/docs:** Dokumentacja, w tym niniejszy plik.
+  - **/tests:** Testy jednostkowe i integracyjne.
+- **Pliki README.md:**
+  - Główna strona repozytorium zawiera ogólny opis projektu, instrukcje instalacji oraz uruchamiania aplikacji.
+- **Zarządzanie wersjami:**
+  - Wykorzystanie systemu kontroli wersji Git.
+  - Użycie branchy do rozwoju nowych funkcji.
+  - Każda zmiana w kodzie jest rejestrowana poprzez system pull requestów.
+- **Standardy kodowania:**
+  - Stosowanie przyjętych konwencji.
+  - Dokumentacja funkcji i modułów w postaci komentarzy.
+
+---
+
+### 3. WBS (Work Breakdown Structure)
+
+WBS został opracowany w powiązaniu z wykresem Gantta, aby zapewnić spójność harmonogramu projektu.
+
+#### Zawartość WBS:
+- **Hierarchiczna struktura zadań projektowych:**
+  - Każdy poziom zadania oznaczony numeracją (np. 1.1, 1.1.1).
+- **Podział pracy na 7 głównych obszarów:**
+  1. Analiza wymagań.
+  2. Projektowanie systemu.
+  3. Implementacja modułów.
+  4. Opracowanie oprogramowania dla terminala mobilnego
+  5. Integracja systemu
+  6.Testy systemu
+  7. Wdrożenie systemu
+ 
+- **Integracja z wykresem Gantta:** Umożliwia wizualizację terminów realizacji poszczególnych zadań.
+
+---
+
+### 4. Dokumentacja Techniczna
+
+Dokumentacja techniczna opisuje szczegóły implementacji oraz architekturę systemu.
+
+#### Kluczowe elementy:
+- **Diagramy:**
+  - Diagramy architektury systemu.
+- **Opis modułów:**
+  - Funkcjonalność poszczególnych części systemu.
+  - Interfejsy między modułami.
+- **Instrukcje instalacji i konfiguracji:**
+  - Wymagania systemowe.
+  - Kroki instalacji i konfiguracji środowiska.
+- **Format:** Dokumentacja dostępna w formacie Markdown, co umożliwia łatwe przeglądanie w repozytorium GitHub.
+
+---
+
+### 5. Specyfikacja Wymagań Projektu
+
+Specyfikacja wymagań definiuje cele projektu oraz funkcjonalności, które system powinien spełniać.
+
+#### Kluczowe elementy:
+- **Wymagania funkcjonalne:**
+  - Opis głównych funkcji, które system ma realizować.
+  - Scenariusze użycia opisujące interakcje użytkownika z systemem.
+- **Wymagania niefunkcjonalne:**
+  - Wymagania dotyczące wydajności, bezpieczeństwa, skalowalności.
+- **Priorytety:**
+  - Wymagania podzielone na kategorie: kluczowe, ważne, opcjonalne.
+- **Metodyka opracowania:** Dokument stworzony zgodnie z najlepszymi praktykami specyfikacji, dostosowany do potrzeb zespołu projektowego.
+
+---
+
+## Podsumowanie
+
+Łącząc powyższe artefakty, projekt posiada kompleksową dokumentację i strukturę, która umożliwia:
+
+- **Efektywne zarządzanie wiedzą i komunikację w zespole** (Wiki).
+- **Centralizację i kontrolę wersji kodu źródłowego** (Repozytorium GitHub).
+- **Precyzyjne planowanie i monitorowanie realizacji zadań** (WBS).
+- **Szczegółowe opisanie implementacji i architektury systemu** (Dokumentacja Techniczna).
+- **Dokładne określenie wymagań funkcjonalnych i niefunkcjonalnych** (Specyfikacja Wymagań).
+
+---
+
